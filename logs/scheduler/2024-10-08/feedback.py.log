@@ -1,0 +1,56 @@
+[2024-10-08T00:56:37.118+0000] {processor.py:161} INFO - Started process (PID=71) to work on /opt/airflow/dags/feedback.py
+[2024-10-08T00:56:37.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/feedback.py for tasks to queue
+[2024-10-08T00:56:37.130+0000] {logging_mixin.py:188} INFO - [2024-10-08T00:56:37.128+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/feedback.py
+[2024-10-08T00:56:37.213+0000] {processor.py:840} INFO - DAG(s) 'insert_employee_feedback_summary' retrieved from /opt/airflow/dags/feedback.py
+[2024-10-08T00:56:37.845+0000] {logging_mixin.py:188} INFO - [2024-10-08T00:56:37.845+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-08T00:56:37.886+0000] {logging_mixin.py:188} INFO - [2024-10-08T00:56:37.886+0000] {dag.py:3823} INFO - Setting next_dagrun for insert_employee_feedback_summary to None, run_after=None
+[2024-10-08T00:56:37.950+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/feedback.py took 0.847 seconds
+[2024-10-08T00:57:08.788+0000] {processor.py:161} INFO - Started process (PID=133) to work on /opt/airflow/dags/feedback.py
+[2024-10-08T00:57:08.794+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/feedback.py for tasks to queue
+[2024-10-08T00:57:08.814+0000] {logging_mixin.py:188} INFO - [2024-10-08T00:57:08.811+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/feedback.py
+[2024-10-08T00:57:08.867+0000] {processor.py:840} INFO - DAG(s) 'insert_employee_feedback_summary' retrieved from /opt/airflow/dags/feedback.py
+[2024-10-08T00:57:08.967+0000] {logging_mixin.py:188} INFO - [2024-10-08T00:57:08.967+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-08T00:57:09.103+0000] {logging_mixin.py:188} INFO - [2024-10-08T00:57:09.103+0000] {dag.py:3823} INFO - Setting next_dagrun for insert_employee_feedback_summary to None, run_after=None
+[2024-10-08T00:57:09.200+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/feedback.py took 0.435 seconds
+[2024-10-08T00:57:40.070+0000] {processor.py:161} INFO - Started process (PID=197) to work on /opt/airflow/dags/feedback.py
+[2024-10-08T00:57:40.072+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/feedback.py for tasks to queue
+[2024-10-08T00:57:40.075+0000] {logging_mixin.py:188} INFO - [2024-10-08T00:57:40.074+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/feedback.py
+[2024-10-08T00:57:40.092+0000] {processor.py:840} INFO - DAG(s) 'insert_employee_feedback_summary' retrieved from /opt/airflow/dags/feedback.py
+[2024-10-08T00:57:40.116+0000] {logging_mixin.py:188} INFO - [2024-10-08T00:57:40.116+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-08T00:57:40.143+0000] {logging_mixin.py:188} INFO - [2024-10-08T00:57:40.143+0000] {dag.py:3823} INFO - Setting next_dagrun for insert_employee_feedback_summary to None, run_after=None
+[2024-10-08T00:57:40.167+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/feedback.py took 0.101 seconds
+[2024-10-08T00:58:10.421+0000] {processor.py:161} INFO - Started process (PID=259) to work on /opt/airflow/dags/feedback.py
+[2024-10-08T00:58:10.423+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/feedback.py for tasks to queue
+[2024-10-08T00:58:10.426+0000] {logging_mixin.py:188} INFO - [2024-10-08T00:58:10.426+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/feedback.py
+[2024-10-08T00:58:10.443+0000] {processor.py:840} INFO - DAG(s) 'insert_employee_feedback_summary' retrieved from /opt/airflow/dags/feedback.py
+[2024-10-08T00:58:10.468+0000] {logging_mixin.py:188} INFO - [2024-10-08T00:58:10.467+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-08T00:58:10.502+0000] {logging_mixin.py:188} INFO - [2024-10-08T00:58:10.502+0000] {dag.py:3823} INFO - Setting next_dagrun for insert_employee_feedback_summary to None, run_after=None
+[2024-10-08T00:58:10.544+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/feedback.py took 0.126 seconds
+[2024-10-08T00:58:40.974+0000] {processor.py:161} INFO - Started process (PID=321) to work on /opt/airflow/dags/feedback.py
+[2024-10-08T00:58:40.978+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/feedback.py for tasks to queue
+[2024-10-08T00:58:40.986+0000] {logging_mixin.py:188} INFO - [2024-10-08T00:58:40.985+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/feedback.py
+[2024-10-08T00:58:41.040+0000] {processor.py:840} INFO - DAG(s) 'insert_employee_feedback_summary' retrieved from /opt/airflow/dags/feedback.py
+[2024-10-08T00:58:41.130+0000] {logging_mixin.py:188} INFO - [2024-10-08T00:58:41.130+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-08T00:58:41.206+0000] {logging_mixin.py:188} INFO - [2024-10-08T00:58:41.205+0000] {dag.py:3823} INFO - Setting next_dagrun for insert_employee_feedback_summary to None, run_after=None
+[2024-10-08T00:58:41.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/feedback.py took 0.277 seconds
+[2024-10-08T00:59:11.792+0000] {processor.py:161} INFO - Started process (PID=389) to work on /opt/airflow/dags/feedback.py
+[2024-10-08T00:59:11.795+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/feedback.py for tasks to queue
+[2024-10-08T00:59:11.800+0000] {logging_mixin.py:188} INFO - [2024-10-08T00:59:11.799+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/feedback.py
+[2024-10-08T00:59:11.823+0000] {processor.py:840} INFO - DAG(s) 'insert_employee_feedback_summary' retrieved from /opt/airflow/dags/feedback.py
+[2024-10-08T00:59:11.851+0000] {logging_mixin.py:188} INFO - [2024-10-08T00:59:11.851+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-08T00:59:11.879+0000] {logging_mixin.py:188} INFO - [2024-10-08T00:59:11.878+0000] {dag.py:3823} INFO - Setting next_dagrun for insert_employee_feedback_summary to None, run_after=None
+[2024-10-08T00:59:11.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/feedback.py took 0.125 seconds
+[2024-10-08T00:59:41.983+0000] {processor.py:161} INFO - Started process (PID=451) to work on /opt/airflow/dags/feedback.py
+[2024-10-08T00:59:41.984+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/feedback.py for tasks to queue
+[2024-10-08T00:59:41.987+0000] {logging_mixin.py:188} INFO - [2024-10-08T00:59:41.987+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/feedback.py
+[2024-10-08T00:59:42.005+0000] {processor.py:840} INFO - DAG(s) 'insert_employee_feedback_summary' retrieved from /opt/airflow/dags/feedback.py
+[2024-10-08T00:59:42.032+0000] {logging_mixin.py:188} INFO - [2024-10-08T00:59:42.032+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-08T00:59:42.059+0000] {logging_mixin.py:188} INFO - [2024-10-08T00:59:42.059+0000] {dag.py:3823} INFO - Setting next_dagrun for insert_employee_feedback_summary to None, run_after=None
+[2024-10-08T00:59:42.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/feedback.py took 0.111 seconds
+[2024-10-08T01:00:12.232+0000] {processor.py:161} INFO - Started process (PID=514) to work on /opt/airflow/dags/feedback.py
+[2024-10-08T01:00:12.233+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/feedback.py for tasks to queue
+[2024-10-08T01:00:12.237+0000] {logging_mixin.py:188} INFO - [2024-10-08T01:00:12.236+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/feedback.py
+[2024-10-08T01:00:12.258+0000] {processor.py:840} INFO - DAG(s) 'insert_employee_feedback_summary' retrieved from /opt/airflow/dags/feedback.py
+[2024-10-08T01:00:12.282+0000] {logging_mixin.py:188} INFO - [2024-10-08T01:00:12.282+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-08T01:00:12.313+0000] {logging_mixin.py:188} INFO - [2024-10-08T01:00:12.312+0000] {dag.py:3823} INFO - Setting next_dagrun for insert_employee_feedback_summary to None, run_after=None
+[2024-10-08T01:00:12.341+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/feedback.py took 0.113 seconds

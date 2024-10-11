@@ -1,0 +1,1 @@
+[2024-10-05T01:51:45.977+0000] {scheduler_job_runner.py:781} ERROR - Executor reports task instance <TaskInstance: insert_employee_feedback_summary.create_table_task manual__2024-10-05T01:51:36.011031+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

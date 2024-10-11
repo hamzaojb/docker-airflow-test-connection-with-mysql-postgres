@@ -1,0 +1,29 @@
+[2024-10-04T23:27:26.742+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: create_table_in_mysql.create_table_task manual__2024-10-04T23:27:23.965761+00:00 [queued]>
+[2024-10-04T23:27:26.756+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: create_table_in_mysql.create_table_task manual__2024-10-04T23:27:23.965761+00:00 [queued]>
+[2024-10-04T23:27:26.757+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-10-04T23:27:26.773+0000] {taskinstance.py:2191} INFO - Executing <Task(MySqlOperator): create_table_task> on 2024-10-04 23:27:23.965761+00:00
+[2024-10-04T23:27:26.795+0000] {standard_task_runner.py:60} INFO - Started process 368 to run task
+[2024-10-04T23:27:26.799+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'create_table_in_mysql', 'create_table_task', 'manual__2024-10-04T23:27:23.965761+00:00', '--job-id', '134', '--raw', '--subdir', 'DAGS_FOLDER/mysql.py', '--cfg-path', '/tmp/tmpdpswd3bt']
+[2024-10-04T23:27:26.802+0000] {standard_task_runner.py:88} INFO - Job 134: Subtask create_table_task
+[2024-10-04T23:27:26.870+0000] {task_command.py:423} INFO - Running <TaskInstance: create_table_in_mysql.create_table_task manual__2024-10-04T23:27:23.965761+00:00 [running]> on host ffa59a91c4ec
+[2024-10-04T23:27:26.989+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='create_table_in_mysql' AIRFLOW_CTX_TASK_ID='create_table_task' AIRFLOW_CTX_EXECUTION_DATE='2024-10-04T23:27:23.965761+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-04T23:27:23.965761+00:00'
+[2024-10-04T23:27:26.991+0000] {sql.py:276} INFO - Executing: 
+        CREATE TABLE IF NOT EXISTS clients (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            nom VARCHAR(100) NOT NULL,
+            email VARCHAR(100) UNIQUE NOT NULL
+        );
+        
+[2024-10-04T23:27:27.006+0000] {base.py:83} INFO - Using connection ID 'mysql_conn_id' for task execution.
+[2024-10-04T23:27:27.032+0000] {base.py:83} INFO - Using connection ID 'mysql_conn_id' for task execution.
+[2024-10-04T23:27:27.205+0000] {sql.py:450} INFO - Running statement: 
+        CREATE TABLE IF NOT EXISTS clients (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            nom VARCHAR(100) NOT NULL,
+            email VARCHAR(100) UNIQUE NOT NULL
+        );
+        , parameters: None
+[2024-10-04T23:27:27.225+0000] {sql.py:459} INFO - Rows affected: 0
+[2024-10-04T23:27:27.247+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=create_table_in_mysql, task_id=create_table_task, execution_date=20241004T232723, start_date=20241004T232726, end_date=20241004T232727
+[2024-10-04T23:27:27.295+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-10-04T23:27:27.314+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

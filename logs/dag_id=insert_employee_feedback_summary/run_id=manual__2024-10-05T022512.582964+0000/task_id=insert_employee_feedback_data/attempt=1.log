@@ -1,0 +1,62 @@
+[2024-10-05T02:25:35.082+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: insert_employee_feedback_summary.insert_employee_feedback_data manual__2024-10-05T02:25:12.582964+00:00 [queued]>
+[2024-10-05T02:25:35.104+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: insert_employee_feedback_summary.insert_employee_feedback_data manual__2024-10-05T02:25:12.582964+00:00 [queued]>
+[2024-10-05T02:25:35.106+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2024-10-05T02:25:35.140+0000] {taskinstance.py:2191} INFO - Executing <Task(PostgresOperator): insert_employee_feedback_data> on 2024-10-05 02:25:12.582964+00:00
+[2024-10-05T02:25:35.159+0000] {standard_task_runner.py:60} INFO - Started process 807 to run task
+[2024-10-05T02:25:35.165+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'insert_employee_feedback_summary', 'insert_employee_feedback_data', 'manual__2024-10-05T02:25:12.582964+00:00', '--job-id', '158', '--raw', '--subdir', 'DAGS_FOLDER/feedback.py', '--cfg-path', '/tmp/tmp3lj7nojv']
+[2024-10-05T02:25:35.170+0000] {standard_task_runner.py:88} INFO - Job 158: Subtask insert_employee_feedback_data
+[2024-10-05T02:25:35.266+0000] {task_command.py:423} INFO - Running <TaskInstance: insert_employee_feedback_summary.insert_employee_feedback_data manual__2024-10-05T02:25:12.582964+00:00 [running]> on host ffa59a91c4ec
+[2024-10-05T02:25:35.614+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='insert_employee_feedback_summary' AIRFLOW_CTX_TASK_ID='insert_employee_feedback_data' AIRFLOW_CTX_EXECUTION_DATE='2024-10-05T02:25:12.582964+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-05T02:25:12.582964+00:00'
+[2024-10-05T02:25:35.640+0000] {sql.py:276} INFO - Executing: 
+        INSERT INTO employee_feedback_summary (employee_name, department_name, feedback_rating,employee_gender )
+        SELECT 
+            e.name AS employee_name, 
+            d.name AS department_name, 
+            f.rating AS feedback_rating,
+            e.gender AS employee_gender, 
+
+        FROM 
+            employees e
+        JOIN 
+            departments d ON e.department_id = d.id
+        LEFT JOIN 
+            feedback f ON e.id = f.employee_id;
+        
+[2024-10-05T02:25:35.683+0000] {base.py:83} INFO - Using connection ID 'postgres_conn_id' for task execution.
+[2024-10-05T02:25:35.747+0000] {base.py:83} INFO - Using connection ID 'postgres_conn_id' for task execution.
+[2024-10-05T02:25:35.932+0000] {sql.py:450} INFO - Running statement: 
+        INSERT INTO employee_feedback_summary (employee_name, department_name, feedback_rating,employee_gender )
+        SELECT 
+            e.name AS employee_name, 
+            d.name AS department_name, 
+            f.rating AS feedback_rating,
+            e.gender AS employee_gender, 
+
+        FROM 
+            employees e
+        JOIN 
+            departments d ON e.department_id = d.id
+        LEFT JOIN 
+            feedback f ON e.id = f.employee_id;
+        , parameters: None
+[2024-10-05T02:25:35.950+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 282, in execute
+    output = hook.run(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 398, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 455, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.SyntaxError: ERREUR:  erreur de syntaxe sur ou près de « FROM »
+LINE 9:         FROM 
+                ^
+
+[2024-10-05T02:25:35.997+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=insert_employee_feedback_summary, task_id=insert_employee_feedback_data, execution_date=20241005T022512, start_date=20241005T022535, end_date=20241005T022535
+[2024-10-05T02:25:36.041+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 158 for task insert_employee_feedback_data (ERREUR:  erreur de syntaxe sur ou près de « FROM »
+LINE 9:         FROM 
+                ^
+; 807)
+[2024-10-05T02:25:36.106+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-10-05T02:25:36.146+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

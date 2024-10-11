@@ -1,0 +1,25 @@
+[2024-10-09T22:07:54.682+0000] {processor.py:161} INFO - Started process (PID=671) to work on /opt/airflow/dags/dagsnowflake.py
+[2024-10-09T22:07:54.683+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dagsnowflake.py for tasks to queue
+[2024-10-09T22:07:54.687+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:07:54.686+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dagsnowflake.py
+[2024-10-09T22:07:54.716+0000] {processor.py:840} INFO - DAG(s) 'snowflake_create_students_table' retrieved from /opt/airflow/dags/dagsnowflake.py
+[2024-10-09T22:07:54.868+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:07:54.867+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:snowflake_create_students_table
+[2024-10-09T22:07:54.885+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:07:54.885+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:snowflake_create_students_table
+[2024-10-09T22:07:54.897+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:07:54.897+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:snowflake_create_students_table
+[2024-10-09T22:07:54.899+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:07:54.898+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-09T22:07:54.915+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:07:54.914+0000] {dag.py:3058} INFO - Creating ORM DAG for snowflake_create_students_table
+[2024-10-09T22:07:54.916+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:07:54.916+0000] {dag.py:3823} INFO - Setting next_dagrun for snowflake_create_students_table to None, run_after=None
+[2024-10-09T22:07:54.950+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dagsnowflake.py took 0.272 seconds
+[2024-10-09T22:08:25.034+0000] {processor.py:161} INFO - Started process (PID=732) to work on /opt/airflow/dags/dagsnowflake.py
+[2024-10-09T22:08:25.036+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dagsnowflake.py for tasks to queue
+[2024-10-09T22:08:25.038+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:08:25.038+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dagsnowflake.py
+[2024-10-09T22:08:25.056+0000] {processor.py:840} INFO - DAG(s) 'snowflake_create_students_table' retrieved from /opt/airflow/dags/dagsnowflake.py
+[2024-10-09T22:08:25.079+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:08:25.078+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-09T22:08:25.093+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:08:25.093+0000] {dag.py:3823} INFO - Setting next_dagrun for snowflake_create_students_table to None, run_after=None
+[2024-10-09T22:08:25.119+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dagsnowflake.py took 0.088 seconds
+[2024-10-09T22:08:55.353+0000] {processor.py:161} INFO - Started process (PID=793) to work on /opt/airflow/dags/dagsnowflake.py
+[2024-10-09T22:08:55.354+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dagsnowflake.py for tasks to queue
+[2024-10-09T22:08:55.356+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:08:55.356+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dagsnowflake.py
+[2024-10-09T22:08:55.392+0000] {processor.py:840} INFO - DAG(s) 'snowflake_create_students_table' retrieved from /opt/airflow/dags/dagsnowflake.py
+[2024-10-09T22:08:55.413+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:08:55.412+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-09T22:08:55.426+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:08:55.426+0000] {dag.py:3823} INFO - Setting next_dagrun for snowflake_create_students_table to None, run_after=None
+[2024-10-09T22:08:55.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dagsnowflake.py took 0.101 seconds

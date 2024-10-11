@@ -1,0 +1,45 @@
+[2024-10-05T02:34:31.751+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: insert_employee_feedback_summary.insert_employee_feedback_data manual__2024-10-05T02:34:15.810334+00:00 [queued]>
+[2024-10-05T02:34:31.781+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: insert_employee_feedback_summary.insert_employee_feedback_data manual__2024-10-05T02:34:15.810334+00:00 [queued]>
+[2024-10-05T02:34:31.783+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2024-10-05T02:34:31.822+0000] {taskinstance.py:2191} INFO - Executing <Task(PostgresOperator): insert_employee_feedback_data> on 2024-10-05 02:34:15.810334+00:00
+[2024-10-05T02:34:31.851+0000] {standard_task_runner.py:60} INFO - Started process 949 to run task
+[2024-10-05T02:34:31.857+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'insert_employee_feedback_summary', 'insert_employee_feedback_data', 'manual__2024-10-05T02:34:15.810334+00:00', '--job-id', '162', '--raw', '--subdir', 'DAGS_FOLDER/feedback.py', '--cfg-path', '/tmp/tmp3mlixc9v']
+[2024-10-05T02:34:31.866+0000] {standard_task_runner.py:88} INFO - Job 162: Subtask insert_employee_feedback_data
+[2024-10-05T02:34:31.972+0000] {task_command.py:423} INFO - Running <TaskInstance: insert_employee_feedback_summary.insert_employee_feedback_data manual__2024-10-05T02:34:15.810334+00:00 [running]> on host ffa59a91c4ec
+[2024-10-05T02:34:32.122+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='insert_employee_feedback_summary' AIRFLOW_CTX_TASK_ID='insert_employee_feedback_data' AIRFLOW_CTX_EXECUTION_DATE='2024-10-05T02:34:15.810334+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-05T02:34:15.810334+00:00'
+[2024-10-05T02:34:32.126+0000] {sql.py:276} INFO - Executing: 
+        INSERT INTO employee_feedback_summary (employee_name, department_name, feedback_rating,employee_gender )
+        SELECT 
+            e.name AS employee_name, 
+            d.name AS department_name, 
+            f.rating AS feedback_rating,
+            e.gender AS employee_gender
+
+        FROM 
+            employees e
+        JOIN 
+            departments d ON e.department_id = d.id
+        LEFT JOIN 
+            feedback f ON e.id = f.employee_id;
+        
+[2024-10-05T02:34:32.143+0000] {base.py:83} INFO - Using connection ID 'postgres_conn_id' for task execution.
+[2024-10-05T02:34:32.159+0000] {base.py:83} INFO - Using connection ID 'postgres_conn_id' for task execution.
+[2024-10-05T02:34:32.249+0000] {sql.py:450} INFO - Running statement: 
+        INSERT INTO employee_feedback_summary (employee_name, department_name, feedback_rating,employee_gender )
+        SELECT 
+            e.name AS employee_name, 
+            d.name AS department_name, 
+            f.rating AS feedback_rating,
+            e.gender AS employee_gender
+
+        FROM 
+            employees e
+        JOIN 
+            departments d ON e.department_id = d.id
+        LEFT JOIN 
+            feedback f ON e.id = f.employee_id;
+        , parameters: None
+[2024-10-05T02:34:32.270+0000] {sql.py:459} INFO - Rows affected: 20
+[2024-10-05T02:34:32.302+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=insert_employee_feedback_summary, task_id=insert_employee_feedback_data, execution_date=20241005T023415, start_date=20241005T023431, end_date=20241005T023432
+[2024-10-05T02:34:32.352+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-10-05T02:34:32.379+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

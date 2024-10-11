@@ -1,0 +1,98 @@
+[2024-10-09T22:02:13.029+0000] {processor.py:161} INFO - Started process (PID=71) to work on /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:02:13.035+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_mysql_table.py for tasks to queue
+[2024-10-09T22:02:13.041+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:02:13.040+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:02:13.102+0000] {processor.py:840} INFO - DAG(s) 'create_table_in_postgres' retrieved from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:02:13.548+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:02:13.547+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-09T22:02:13.639+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:02:13.637+0000] {dag.py:3823} INFO - Setting next_dagrun for create_table_in_postgres to None, run_after=None
+[2024-10-09T22:02:13.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_mysql_table.py took 0.698 seconds
+[2024-10-09T22:02:53.562+0000] {processor.py:161} INFO - Started process (PID=54) to work on /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:02:53.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_mysql_table.py for tasks to queue
+[2024-10-09T22:02:53.567+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:02:53.566+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:02:53.591+0000] {processor.py:840} INFO - DAG(s) 'create_table_in_postgres' retrieved from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:02:53.647+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:02:53.647+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-09T22:02:53.681+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:02:53.680+0000] {dag.py:3823} INFO - Setting next_dagrun for create_table_in_postgres to None, run_after=None
+[2024-10-09T22:02:53.709+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_mysql_table.py took 0.151 seconds
+[2024-10-09T22:03:23.866+0000] {processor.py:161} INFO - Started process (PID=115) to work on /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:03:23.867+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_mysql_table.py for tasks to queue
+[2024-10-09T22:03:23.869+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:03:23.869+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:03:23.888+0000] {processor.py:840} INFO - DAG(s) 'create_table_in_postgres' retrieved from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:03:23.934+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:03:23.934+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-09T22:03:24.012+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:03:24.011+0000] {dag.py:3823} INFO - Setting next_dagrun for create_table_in_postgres to None, run_after=None
+[2024-10-09T22:03:24.052+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_mysql_table.py took 0.191 seconds
+[2024-10-09T22:03:54.780+0000] {processor.py:161} INFO - Started process (PID=176) to work on /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:03:54.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_mysql_table.py for tasks to queue
+[2024-10-09T22:03:54.786+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:03:54.786+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:03:54.812+0000] {processor.py:840} INFO - DAG(s) 'create_table_in_postgres' retrieved from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:03:54.849+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:03:54.849+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-09T22:03:54.877+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:03:54.877+0000] {dag.py:3823} INFO - Setting next_dagrun for create_table_in_postgres to None, run_after=None
+[2024-10-09T22:03:54.920+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_mysql_table.py took 0.145 seconds
+[2024-10-09T22:04:25.153+0000] {processor.py:161} INFO - Started process (PID=238) to work on /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:04:25.154+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_mysql_table.py for tasks to queue
+[2024-10-09T22:04:25.157+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:04:25.157+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:04:25.185+0000] {processor.py:840} INFO - DAG(s) 'create_table_in_postgres' retrieved from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:04:25.234+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:04:25.234+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-09T22:04:25.293+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:04:25.293+0000] {dag.py:3823} INFO - Setting next_dagrun for create_table_in_postgres to None, run_after=None
+[2024-10-09T22:04:25.320+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_mysql_table.py took 0.172 seconds
+[2024-10-09T22:04:55.580+0000] {processor.py:161} INFO - Started process (PID=306) to work on /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:04:55.582+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_mysql_table.py for tasks to queue
+[2024-10-09T22:04:55.587+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:04:55.586+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:04:55.616+0000] {processor.py:840} INFO - DAG(s) 'create_table_in_postgres' retrieved from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:04:55.659+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:04:55.659+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-09T22:04:55.694+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:04:55.693+0000] {dag.py:3823} INFO - Setting next_dagrun for create_table_in_postgres to None, run_after=None
+[2024-10-09T22:04:55.745+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_mysql_table.py took 0.169 seconds
+[2024-10-09T22:05:25.819+0000] {processor.py:161} INFO - Started process (PID=368) to work on /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:05:25.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_mysql_table.py for tasks to queue
+[2024-10-09T22:05:25.823+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:05:25.823+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:05:25.843+0000] {processor.py:840} INFO - DAG(s) 'create_table_in_postgres' retrieved from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:05:25.866+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:05:25.866+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-09T22:05:25.891+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:05:25.890+0000] {dag.py:3823} INFO - Setting next_dagrun for create_table_in_postgres to None, run_after=None
+[2024-10-09T22:05:25.919+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_mysql_table.py took 0.104 seconds
+[2024-10-09T22:05:56.641+0000] {processor.py:161} INFO - Started process (PID=430) to work on /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:05:56.643+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_mysql_table.py for tasks to queue
+[2024-10-09T22:05:56.647+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:05:56.646+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:05:56.686+0000] {processor.py:840} INFO - DAG(s) 'create_table_in_postgres' retrieved from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:05:56.717+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:05:56.716+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-09T22:05:56.746+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:05:56.745+0000] {dag.py:3823} INFO - Setting next_dagrun for create_table_in_postgres to None, run_after=None
+[2024-10-09T22:05:56.777+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_mysql_table.py took 0.143 seconds
+[2024-10-09T22:06:26.899+0000] {processor.py:161} INFO - Started process (PID=492) to work on /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:06:26.901+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_mysql_table.py for tasks to queue
+[2024-10-09T22:06:26.904+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:06:26.903+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:06:26.923+0000] {processor.py:840} INFO - DAG(s) 'create_table_in_postgres' retrieved from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:06:26.945+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:06:26.945+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-09T22:06:26.981+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:06:26.978+0000] {dag.py:3823} INFO - Setting next_dagrun for create_table_in_postgres to None, run_after=None
+[2024-10-09T22:06:27.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_mysql_table.py took 0.119 seconds
+[2024-10-09T22:06:57.151+0000] {processor.py:161} INFO - Started process (PID=554) to work on /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:06:57.152+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_mysql_table.py for tasks to queue
+[2024-10-09T22:06:57.153+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:06:57.153+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:06:57.167+0000] {processor.py:840} INFO - DAG(s) 'create_table_in_postgres' retrieved from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:06:57.186+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:06:57.186+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-09T22:06:57.209+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:06:57.209+0000] {dag.py:3823} INFO - Setting next_dagrun for create_table_in_postgres to None, run_after=None
+[2024-10-09T22:06:57.233+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_mysql_table.py took 0.085 seconds
+[2024-10-09T22:07:27.369+0000] {processor.py:161} INFO - Started process (PID=616) to work on /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:07:27.370+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_mysql_table.py for tasks to queue
+[2024-10-09T22:07:27.372+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:07:27.372+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:07:27.389+0000] {processor.py:840} INFO - DAG(s) 'create_table_in_postgres' retrieved from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:07:27.410+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:07:27.409+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-09T22:07:27.433+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:07:27.433+0000] {dag.py:3823} INFO - Setting next_dagrun for create_table_in_postgres to None, run_after=None
+[2024-10-09T22:07:27.457+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_mysql_table.py took 0.091 seconds
+[2024-10-09T22:07:57.993+0000] {processor.py:161} INFO - Started process (PID=680) to work on /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:07:57.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_mysql_table.py for tasks to queue
+[2024-10-09T22:07:57.998+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:07:57.997+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:07:58.017+0000] {processor.py:840} INFO - DAG(s) 'create_table_in_postgres' retrieved from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:07:58.046+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:07:58.045+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-09T22:07:58.077+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:07:58.077+0000] {dag.py:3823} INFO - Setting next_dagrun for create_table_in_postgres to None, run_after=None
+[2024-10-09T22:07:58.108+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_mysql_table.py took 0.118 seconds
+[2024-10-09T22:08:28.349+0000] {processor.py:161} INFO - Started process (PID=741) to work on /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:08:28.351+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_mysql_table.py for tasks to queue
+[2024-10-09T22:08:28.354+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:08:28.354+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:08:28.376+0000] {processor.py:840} INFO - DAG(s) 'create_table_in_postgres' retrieved from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:08:28.408+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:08:28.407+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-09T22:08:28.438+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:08:28.438+0000] {dag.py:3823} INFO - Setting next_dagrun for create_table_in_postgres to None, run_after=None
+[2024-10-09T22:08:28.474+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_mysql_table.py took 0.128 seconds
+[2024-10-09T22:08:58.594+0000] {processor.py:161} INFO - Started process (PID=802) to work on /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:08:58.595+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_mysql_table.py for tasks to queue
+[2024-10-09T22:08:58.598+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:08:58.597+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:08:58.617+0000] {processor.py:840} INFO - DAG(s) 'create_table_in_postgres' retrieved from /opt/airflow/dags/create_mysql_table.py
+[2024-10-09T22:08:58.652+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:08:58.652+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-09T22:08:58.677+0000] {logging_mixin.py:188} INFO - [2024-10-09T22:08:58.677+0000] {dag.py:3823} INFO - Setting next_dagrun for create_table_in_postgres to None, run_after=None
+[2024-10-09T22:08:58.701+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_mysql_table.py took 0.110 seconds
